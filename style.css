@@ -43,3 +43,13 @@ main{
     display: flex;
     flex-direction: column;
 }
+
+
+@media(max-width: 768px){
+    input{
+        width: 300px;
+    }
+    button{
+        width: 305px;
+    }
+}
