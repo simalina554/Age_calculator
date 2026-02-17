@@ -1,0 +1,45 @@
+:root{
+    --bg: #3c9dd0;
+    --bg-button: #086ca2;
+}
+
+body{
+    background: var(--bg);
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat Alternates", sans-serif;
+    align-items: center;
+    min-height: 100vh;
+}
+
+input{
+    border: none;
+    outline: none;
+    width: 420px;
+    height: 43px;
+    font-size: 16px;
+    font-family: "Montserrat Alternates", sans-serif;
+    border-radius: 5px;
+    padding-right: 5px;
+}
+
+button{
+    background: var(--bg-button);
+    height: 45px;
+    width: 425px;
+    margin-top: 10px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid var(--bg-button);
+    cursor: pointer
+}
+
+main h1, p{
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
